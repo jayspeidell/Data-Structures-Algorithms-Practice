@@ -67,7 +67,6 @@ int main(void) {
     -10, 1, -7, -3, -25, 18, -28, 22, 6, -20, 1, -27, -29, 21, 17, -29, 5, 1, 18, -26 };
 
     int lenArr = sizeof(arr) / sizeof(int);
-
     struct Tuple finalVal;
 
     finalVal = FindMaxSubarray(arr, 0, lenArr-1);
@@ -82,6 +81,5 @@ int main(void) {
             printf("\n");
         }
     }
-
     return(0);
 }
