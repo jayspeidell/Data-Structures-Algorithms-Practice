@@ -60,13 +60,13 @@ void mergeSort (int A[], int left, int right) {
 }
 
 int main(void) {
-    int A[10] = {8,7,3,5,1,0,4,7,4,2};
+    int A[] = {8,7,3,5,1,0,4, 99, 23, 44, 1, 3, 23, 17, 43, 67, 61,7,4,2};
     int left = 0;
     int right = sizeof(A) / sizeof(A[10]) - 1;
     mergeSort(A, left, right);
 
     for ( int m = 0; m <= right; m++ ){
-        printf("%d", A[m]);
+        printf("%d,", A[m]);
     }
 
     return(0);
